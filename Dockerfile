@@ -5,3 +5,5 @@ WORKDIR /app
 
 RUN apt-get -y update
 RUN apt-get -y install python
+
+CMD python app.py
